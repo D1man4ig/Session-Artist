@@ -146,6 +146,7 @@ body {
   line-height: 19px;
   margin-top: 31px;
   margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 
 .guitarists-title {
@@ -156,4 +157,243 @@ body {
   margin-top: 50px;
   margin-bottom: 30px;
   background: url(../image/svg/line-guitarist.svg) no-repeat 125px 38px;
+}
+
+.main__row {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.contact {
+  display: flex;
+  margin-right: 30px;
+}
+
+.contact__element p {
+  font-weight: 400;
+  max-width: 263px;
+  font-style: italic;
+  font-family: Inter;
+  margin-top: 30px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.contact__element a {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 12px 67px;
+  background-color: #007163;
+  color: white;
+  border-radius: 5px;
+}
+
+.information {
+  max-width: 848px;
+}
+
+.information__menu span {
+  margin-left: 43px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+}
+.information__menu span:first-child {
+  margin-left: 20px;
+}
+.information__menu span:last-child {
+  margin-left: 62px;
+}
+
+.information__line {
+  display: flex;
+  align-items: center;
+  height: 1px;
+  max-width: 847px;
+  background-color: #d6d0c1;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.subline {
+  height: 3px;
+  width: 120px;
+  background-color: #007163;
+  border-radius: 2px;
+}
+
+.checking {
+  border: 1px solid #d6d0c1;
+  max-height: 331px;
+  border-radius: 5px;
+}
+.checking .price {
+  padding: 20px 20px 20px;
+  display: flex;
+  height: 110px;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Inter;
+  line-height: 19px;
+  color: #000000;
+}
+.checking .price span {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #a67c52;
+}
+.checking .list {
+  padding: 20px;
+}
+.checking .list li {
+  font-family: Inter;
+  line-height: 19px;
+  color: #000000;
+  padding-left: 20px;
+  padding-bottom: 11px;
+  background: url(../image/svg/check-mark.svg) left 4px no-repeat;
+}
+.checking .list li:last-child {
+  color: #d6d0c1;
+  background: url(../image/svg/check-mark2.svg) left 4px no-repeat;
+  margin-bottom: 20px;
+}
+.checking .list li:first-child {
+  color: #d6d0c1;
+  background: url(../image/svg/check-mark2.svg) left 4px no-repeat;
+}
+.checking a {
+  padding: 13px 45px;
+  border: 1px solid #007163;
+  border-radius: 5px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  color: #007163;
+  margin-bottom: 20px;
+}
+.checking .information-btn {
+  margin-bottom: 12px;
+}
+
+.checking-line {
+  height: 1px;
+  width: 847px;
+  background-color: #d6d0c1;
+}
+
+.information__reviews {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  display: flex;
+}
+.information__reviews span {
+  font-family: Oswald;
+  font-size: 24px;
+}
+.information__reviews .raiting {
+  display: flex;
+  align-items: center;
+}
+.information__reviews .raiting span {
+  margin-left: 18px;
+}
+.information__reviews .raiting img {
+  margin-left: 3px;
+}
+
+.reviews {
+  max-width: 848px;
+  font-family: Inter;
+  border: 1px solid #D6D0C1;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.reviews p {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  max-width: 798px;
+  line-height: 22px;
+}
+
+.reviews__user {
+  display: flex;
+  margin: 20px 25px 10px 25px;
+}
+
+.reviews__user-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 37px;
+  height: 37px;
+  color: white;
+  line-height: 22px;
+  border-radius: 50%;
+  background-color: #007163;
+  margin-right: 10px;
+}
+
+.reviews__nick {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.reviews__nick .reviews__raiting {
+  display: flex;
+  align-items: center;
+}
+.reviews__nick .reviews__raiting span {
+  margin-left: 10px;
+  font-weight: 500;
+}
+.reviews__nick .reviews__raiting img {
+  margin-left: 3px;
+  width: 12px;
+  height: 12px;
+}
+
+.date span {
+  color: #A67C52;
+}
+
+.switcher {
+  display: flex;
+  justify-content: space-between;
+  max-width: 120px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.element1 {
+  text-align: center;
+  padding-top: 9px;
+  font-family: Inter;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #007163;
+  border-radius: 2px;
+  color: #000000;
+}
+
+.element2 {
+  font-family: Inter;
+  text-align: center;
+  padding-top: 9px;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #007163;
+  background-color: #007163;
+  border-radius: 2px;
+  color: #fff;
 }/*# sourceMappingURL=more.css.map */
