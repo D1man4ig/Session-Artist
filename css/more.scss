@@ -1,0 +1,160 @@
+@import url("../css/nullstyle.css");
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+body {
+  min-height: 100%;
+  background-image: url(/image/svg/Ellipse\ 3.svg),
+    url(/image/svg/Ellipse\ 4.svg);
+  background-repeat: no-repeat;
+  background-position: 0vw 10vh, 91.5vw 40vh;
+ }
+ 
+ [class*="__container"] {
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 0px 150px;
+ }
+ .wrapper {
+   overflow: hidden;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
+
+ }
+ .header {
+   padding-top: 23px;
+   
+ }
+ .header__container {
+ }
+ .header__row {
+   display: flex;
+   align-items: center;
+   
+ }
+ .header__logo {
+   .logo-link1 {
+     display: flex;
+     align-items: center;
+     max-width: 72px;
+     font-size: 24px;
+     line-height: 35.57px;
+     font-family: Oswald;
+     font-weight: 400;
+     margin-right: 196px;
+     color: #000000;
+   }
+   p {
+     margin-left: 12px;
+   }
+   span {
+     display: flex;
+     justify-content: right;
+   }
+ }
+ .header__search {
+   border: 1px solid #e8e8e8;
+   padding: 10px 15px;
+   border-radius: 5px;
+   
+   margin-right: 322px;
+ 
+ input{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #000000;
+    font-family: Inter;
+    max-width: 320px;
+ }
+ ::placeholder{
+    color:#000000;
+    font-weight: 400;
+ }
+ }
+ .search-box {
+   display: flex;
+   justify-content: space-between;
+ }
+ .search-txt {
+   
+ }
+ .search-btn {
+ }
+ .header__button {
+   display: flex;
+ }
+ .logout {
+   text-align: center;
+   min-width: 165px;
+   min-height: 40px;
+   font-family: Inter;
+   padding: 10px 43px;
+   border: 1px solid #007163;
+   border-radius: 5px;
+   color: #007163;
+   margin-right: 20px;
+   position: relative;
+   font-weight: 600;
+ }
+ .main {
+  flex: 1 1 auto;
+ }
+ .main__container {
+ }
+ 
+ .main-bottom {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 31px;
+   a {
+     font-family: Inter;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 19px;
+     color: #000000;
+     margin-right: 30px ;
+   }
+   .main__logo {
+     .logo-link2 {
+       display: flex;
+       align-items: center;
+       max-width: 72px;
+       font-size: 24px;
+       line-height: 35.57px;
+       font-family: Oswald;
+       font-weight: 400;
+ margin-right: 217px;
+ margin-left: 83px;
+       color: #000000;
+     }
+     p {
+       margin-left: 12px;
+     }
+     span {
+       display: flex;
+       justify-content: right;
+     }
+   }
+ }
+ .footer {
+   text-align: center;
+   font-family: Rubik;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 19px;
+   margin-top: 31px;
+   margin-bottom: 15px;
+ }
+ //header-and-footer====================================================
+ .guitarists-title {
+  font-family: Oswald;
+  font-size: 36px;
+  line-height: 53px;
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: url(../image/svg/line-guitarist.svg) no-repeat 125px 38px;
+}
